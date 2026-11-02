@@ -1,0 +1,218 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    color: #706b6b;
+    margin-top: 20px;
+}
+
+p{
+    text-align: center;
+    color: #706b6b;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.list
+{
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: #706b6b;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 5px;
+    font-size: 25px;
+
+
+}
+a 
+{
+    text-decoration: none;
+    color: hsl(200, 88%, 43%);
+    
+}
+a:hover, a:focus
+{
+    color: hsl(200, 88%, 43%);
+    opacity: 0.8;
+}
+
+a:visited
+{
+    color: hsl(246, 77%, 40%);
+    text-decoration: none;
+}
+
+
+
+nav{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: hsla(0, 0%, 100%, 0.808);
+  
+}
+
+body{
+      background-image: url('../img/values.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    flex-grow: 1;
+    place-content: center;
+}
+
+.history{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: hsla(0, 3%, 6%, 0.134);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.history h1{
+   
+    color:rgb(5, 132, 243);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    text-decoration: underline;
+}
+.history p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color:rgb(118, 253, 0);
+    background-color: hsla(0, 0%, 0%, 0.403);
+    margin: 20px;
+    padding: 20px;
+}
+.mission{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: hsla(0, 3%, 6%, 0.134);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.mission h1{
+   
+    color:rgb(5, 132, 243);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    text-decoration: underline;
+}
+.mission p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color:rgb(118, 253, 0);
+    background-color: hsla(0, 0%, 0%, 0.403);
+    margin: 20px;
+    padding: 20px;
+}
+.values{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: hsla(0, 3%, 6%, 0.134);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.values h1{
+   
+    color:rgb(5, 132, 243);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    text-decoration: underline;
+}
+.values p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color:rgb(118, 253, 0);
+    background-color: hsla(0, 0%, 0%, 0.403);
+    margin: 20px;
+    padding: 20px;
+}
+
+.tell{
+    font-size: 50px;
+    color: rgb(4, 4, 4);
+    text-align: center;
+    text-transform: uppercase;
+background-color: #706b6b;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 534px) 
+{
+    .history h1, .mission h1, .values h1{
+        font-size: 2.5rem;
+    }
+    .content{
+        font-size: 15px;
+    }
+    .tell{
+        font-size: 15px;
+    }
+
+    .list{
+        width:100%;
+        height:auto;
+        font-size: 15px;
+    }
+
+    main{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: hsla(197, 80%, 65%, 0.492);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+body{
+      background-image: url('../img/values.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+}
